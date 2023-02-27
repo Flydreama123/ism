@@ -1,9 +1,9 @@
 server:
-  port: 9002
+  port: 9003
   address: 127.0.0.1
 spring:
   application:
-    name: nacos_consumer
+    name: nacos_provider
   cloud:
     nacos:
       discovery:

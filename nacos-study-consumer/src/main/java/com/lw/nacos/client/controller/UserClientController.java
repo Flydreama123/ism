@@ -24,6 +24,10 @@ public class UserClientController {
     public String test(){
         return "hello";
     }
+    @GetMapping("/test2")
+    public String test2(){
+        return restTemplate.getForObject("http://localhost:9003/provider",String.class);
+    }
 
 
 }
